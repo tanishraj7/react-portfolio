@@ -1,0 +1,5 @@
+.hero{
+    box-shadow: 0 0 5px whitesmoke, 0 0 10px whitesmoke, 0 0 15px whitesmoke, 0 0 20px red;
+    border-radius: 50%;
+    border: 5px solid white;
+}
