@@ -6,6 +6,8 @@
     text-align: center;
     height: 100dvh;
     min-height: 500px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   
     .hero {
       max-width: 200px;
@@ -61,8 +63,8 @@
   
   .colorMode {
     position: absolute;
-    right: 0;
     width: 25px;
+    margin: auto;
   }
   
   .colorMode:hover {
@@ -74,4 +76,26 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+
+  @media (width >= 800px) {
+    .container {
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: space-evenly;
+  
+      .hero {
+        max-width: 350px;
+        width: 350px;
+      }
+    }
+  }
+  
+  @media (width >= 1400px) {
+    .container {
+      .hero {
+        max-width: 400px;
+        width: 400px;
+      }
+    }
   }

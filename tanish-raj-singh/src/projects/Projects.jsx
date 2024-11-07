@@ -13,17 +13,17 @@ function Projects() {
             src={ecom}
             link="https://github.com/tanishraj7/React-Advanced-filtering-ecom"
             h3='GINNIs CART'
-            p='advanced ecom filtering feature'/>
+            p='ecommerce webapp'/>
             <ProjectCard
             src={chatbot}
             link="https://github.com/tanishraj7/AI-chatbot"
-            h3='CHATBOT & VISIONBOT'
-            p='chatbot and visionbot using api integration'/>
+            h3='My Assistant'
+            p='ai chatbot and visionbot'/>
             <ProjectCard
             src={loan}
             link="https://github.com/tanishraj7/loan_payment_difficulties_prediction-kagglethon-"
             h3='LOAN PAYMENT PREDICTION'
-            p='predict whether a client will experience payment difficulties on a loan'/>
+            p='predict payment difficulties'/>
         </div>
     </section>
   )
