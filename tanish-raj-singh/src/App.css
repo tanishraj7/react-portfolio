@@ -28,7 +28,7 @@
   #root {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
   }
   
   h1,
@@ -74,7 +74,7 @@
     cursor: pointer;
   }
   
-  @media (width >= 800px) {
+  /* @media (width >= 800px) {
     #root {
       gap: 100px;
     }
@@ -105,4 +105,4 @@
         margin-bottom: 75px;
       }
     }
-  }
+  } */
