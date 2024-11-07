@@ -1,4 +1,5 @@
 import './App.css'
+import Contact from './contact/Contact'
 import Hero from './hero/Hero'
 import Projects from './projects/Projects'
 import Skills from './skills/Skills'
@@ -10,6 +11,7 @@ function App() {
     <Hero/>
     <Projects/>
     <Skills/>
+    <Contact/>
     </>
   )
 }
