@@ -14,6 +14,9 @@ function Hero() {
     const themeIcon= theme === 'light'? sun: moon;
     const linkedinIcon= theme === 'light'? linkedinLight: linkedinDark;
     const githubIcon= theme === 'light'? githubLight: githubDark;
+    const clickHandler= ()=>{
+        alert('Download Resume?')
+    }
 
     return (
     <section id='hero' className={styles.container}>
@@ -32,8 +35,10 @@ function Hero() {
                 <img src={githubIcon} alt='github'></img>
                 </a>
             </span>
+            <p>*Machine Intelligence and Data Analysis Intern, MNIT'23</p>
+            <p>*Front-end Developer Intern, Vital Skills'24</p>
             <a href={CV} download>
-                <button className='hover'>Resume</button>
+                <button className='hover' onClick={clickHandler}>Resume</button>
             </a>
         </div>
     </section>
