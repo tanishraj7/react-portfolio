@@ -17,7 +17,7 @@ function Projects() {
             <ProjectCard
             src={chatbot}
             link="https://github.com/tanishraj7/AI-chatbot"
-            h3='My Assistant'
+            h3='MY ASSISTANT'
             p='ai chatbot and visionbot'/>
             <ProjectCard
             src={loan}
