@@ -8,6 +8,7 @@ import linkedinLight from '../assets/linkedin-light.svg'
 import moon from '../assets/moon.svg'
 import CV from '../assets/tanish-raj-cv.pdf'
 import { useTheme } from '../common/ThemeContext'
+import me from '../assets/me2.png'
 
 function Hero() {
     const {theme, toggleTheme}= useTheme();
@@ -21,7 +22,7 @@ function Hero() {
     return (
     <section id='hero' className={styles.container}>
         <div className={styles.colorModeContainer}>
-            <img src='https://media.licdn.com/dms/image/v2/D5603AQHpVvrQGIbXZw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729991619033?e=1736380800&v=beta&t=lPb98_lUhNgu-0yCvsAjyn-ReCE9kHy622YQQFn_5h4' alt='profile pic' className={styles.hero}></img>
+            <img src={me} alt='profile pic' className={styles.hero}></img>
             <img src={themeIcon} alt='theme icon' className={styles.colorMode} onClick={toggleTheme}></img>
         </div>
         <div className={styles.info}>
